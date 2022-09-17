@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards-section{
+    background: #fcba03;
+    padding: 1.5rem;
+}
+
+
+.cards{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 1rem;
+    max-width: 25%;
+    background: #fff;
+}

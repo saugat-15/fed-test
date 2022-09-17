@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Fruitery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<link href="resources/css/font-awesome.css" rel="stylesheet" />
+		<link href="resources/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="resources/css/style.css" rel="stylesheet" />
+
+		<!-- This is your custom CSS and JS files - Do Not Change anything else in this file -->
+		<link href="test/css/test_style.css" rel="stylesheet" />
+
+
+
+	</head>
+	
+	<body id="index">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<nav class="navbar navbar-fixed-top" itemscope="itemscope">
+						<div class="container navTop">
+							<div class="row">
+								<div class="col-xs-2">
+									<a class="navbar-brand home" id="homeTop" title="The Fruitery" rel="home"><img class="navbar-brand-image" src="resources/images/thefruitery.png" alt="The Fruitery"></a>
+								</div>
+
+								<div id="hamburger" class="visible-sm visible-xs">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+
+								<div id="mobile-menu">
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<ul class="nav-menu">
+													<li><a> What we do</a></li>
+													<li><a> Fruit</a></li>
+													<li><a> About</a></li>
+													<li><a> Contact</a></li>
+												</ul>						
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xs-10 list">
+									<div id="desktop-menu" class="hidden-sm hidden-xs">
+										<ul class="nav navbar-nav navbar-right">
+											<li><a> What we do</a></li>
+											<li><a> Fruit</a></li>
+											<li><a> About</a> </li>
+											<li><a> Contact</a></li>
+										</ul>			
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<section id="home" class="full-height">
+			<div class="container">	
+				<div class="row" id="about" >
+					<div class="col-xs-10">
+						<h1>Heavily invested in turning your organisation into a juiced-up customer fruit beast?</h1>
+							<h1 class="text-brand">We'll get you there faster.</h1>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<section id="fruity" class="full-height">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" id="hire" >	
+						<h1>We're Fruity</h1>
+					</div>
+					<div class="col-sm-12 col-md-7" id="hire" >
+						<h3>Love the Fruit game? Want to work with some quallity fruit? Want to surround yourself with the fun, juicy, taste and looking to make a fruity impact?</h3><br />
+						<h3>Great, The Fruitery is on the hunt out for amazing talent like you.</h3><br />
+						<p>If  you're keen to learn more about our growing team, drop us a line with your resume and be sure to tell us something interesting about yourself - nothing like a great story to generate interest.</p><br />
+						<a href="career.html">
+							<button type="button" class="btn btn-default" id="teamButton"><h5>Get in touch <i class="fa fa-arrow-right" aria-hidden="true"></i></h5></button>
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-5" id="desk">
+						<img src="resources/images/health-benefits-of-watermelon.jpg" alt="Fruits" class="fruits" />
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script src="resources/js/jquery.min.js"></script>
+		<script src="resources/js/bootstrap.min.js"></script>
+		<script src="test/js/test_js.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#hamburger, #mobile-menu, #nav-menu li a').on('click', function(){
+					$('#hamburger').toggleClass('clicked');
+					$('#mobile-menu').toggleClass('open');
+				});
+			});
+
+		</script>
+
+	</body>
+</html>

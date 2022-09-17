@@ -1,0 +1,544 @@
+/*
+Fonts
+*/
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-ThinItalic.eot');
+    src: url('fonts/Larsseit-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-ThinItalic.woff') format('woff'),
+        url('fonts/Larsseit-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-LightItalic.eot');
+    src: url('fonts/Larsseit-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-LightItalic.woff') format('woff'),
+        url('fonts/Larsseit-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-Bold.eot');
+    src: url('fonts/Larsseit-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-Bold.woff') format('woff'),
+        url('fonts/Larsseit-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-Thin.eot');
+    src: url('fonts/Larsseit-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-Thin.woff') format('woff'),
+        url('fonts/Larsseit-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-Light.eot');
+    src: url('fonts/Larsseit-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-Light.woff') format('woff'),
+        url('fonts/Larsseit-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-ExtraBold.eot');
+    src: url('fonts/Larsseit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-ExtraBold.woff') format('woff'),
+        url('fonts/Larsseit-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit.eot');
+    src: url('fonts/Larsseit.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit.woff') format('woff'),
+        url('fonts/Larsseit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-ExtraBoldItalic.eot');
+    src: url('fonts/Larsseit-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Larsseit-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-Italic.eot');
+    src: url('fonts/Larsseit-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-Italic.woff') format('woff'),
+        url('fonts/Larsseit-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-MediumItalic.eot');
+    src: url('fonts/Larsseit-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-MediumItalic.woff') format('woff'),
+        url('fonts/Larsseit-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit-Medium.eot');
+    src: url('fonts/Larsseit-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Larsseit-Medium.woff') format('woff'),
+        url('fonts/Larsseit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Italic.eot');
+    src: url('fonts/Apercu-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Italic.woff') format('woff'),
+        url('fonts/Apercu-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-LightItalic.eot');
+    src: url('fonts/Apercu-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-LightItalic.woff') format('woff'),
+        url('fonts/Apercu-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Medium.eot');
+    src: url('fonts/Apercu-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Medium.woff') format('woff'),
+        url('fonts/Apercu-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Light.eot');
+    src: url('fonts/Apercu-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Light.woff') format('woff'),
+        url('fonts/Apercu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-BoldItalic.eot');
+    src: url('fonts/Apercu-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-BoldItalic.woff') format('woff'),
+        url('fonts/Apercu-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Bold.eot');
+    src: url('fonts/Apercu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Bold.woff') format('woff'),
+        url('fonts/Apercu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Regular.eot');
+    src: url('fonts/Apercu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Regular.woff') format('woff'),
+        url('fonts/Apercu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    height: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80vw;
+}
+
+body {
+    font-family: 'Apercu';
+}
+
+#index{
+    font-family: 'Apercu';
+    background-color: #292929;
+}
+
+.full-height{
+    position:relative;
+    min-height: 92.5vh;
+}
+
+@media (min-width: 992px){
+    .full-height{
+        min-height: 92.5vh;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
+
+    h2 {
+        font-size: 32pt;
+    }
+
+    h3 {
+        font-size: 24pt;
+    }
+
+    h4 {
+        font-size: 20pt;
+    }
+
+    .full-height h5 {
+        font-size: 14pt;
+    }
+
+    .full-height p {
+        font-size: 16pt;
+    }
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.row {
+    margin: 0;
+}
+
+/*-----------------------------*/
+
+
+/*
+Top navbar CSS
+*/
+
+.navbar-brand img {
+    height: 100%;
+    position: relative;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    padding: 0 0 0 0;
+}
+
+.navbar ul a {
+    font-weight: normal;
+    font-size: 1.5em;
+    display: block;
+    color: #292929;
+    height: 100%;
+}
+
+.navbar-fixed-top {
+    background-color: #FFFFFF;
+    min-height: 7.6vh;
+    padding-top: 1.5vh;
+}
+
+.navbar ul {
+    height: 100%;
+}
+
+@media (max-width: 991px){
+    #desktop-menu {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 992px){
+    .hamburger {
+        visibility: hidden;
+        transition: 0s;
+    }
+}
+
+.hamburger {
+    float: right;
+    position: fixed;
+    right: 0px;
+    margin-right: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    transition: 0.4s;
+}
+
+.change .bar2 {
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    transition: 0.4s;
+}
+
+#mobile-menu{
+    opacity:0;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    visibility:hidden;
+    background-color:rgba(0,0,0,0.9)
+}
+
+#mobile-menu ul{
+    margin-top:50px !important
+}
+
+#mobile-menu.open{
+    /*transition:all 300ms ease;*/
+    opacity:1;
+    visibility:visible;
+    z-index:5
+}
+
+#mobile-menu.open ul{
+    margin:0;
+    padding:0
+}
+
+#mobile-menu.open ul li{
+    display:block;
+    margin-bottom:50px
+}
+
+#mobile-menu.open ul li a{
+    color:#fff;
+    font-size:1em
+}
+
+#hamburger{
+    float:right;
+    position:fixed;
+    right:0px;
+    margin-right:30px;
+    margin-top: 1vh !important;
+    width:35px;
+    height:30px;
+    -webkit-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+    cursor:pointer;
+    z-index:10}
+
+#hamburger.clicked div{
+    background-color:#fff
+    z-index:99}
+
+#hamburger span{
+    /* transition:all 300ms ease; */
+    display:block;
+    position:absolute;
+    height:4px;
+    width:100%;
+    background-color:#292929;
+    opacity:1;
+    left:0;
+    /* -webkit-transform:rotate(0deg); */
+    -ms-transform:rotate(0deg);
+    /* transform:rotate(0deg); */
+}
+
+#hamburger span:nth-child(1){
+    top:0px
+}
+
+#hamburger span:nth-child(2), #hamburger span:nth-child(3){
+    top:12px
+}
+
+#hamburger span:nth-child(4){
+    top:24px
+}
+
+#hamburger.clicked span:nth-child(1){
+    top:12px;
+    width:0%;
+    left:50%
+}
+
+#hamburger.clicked span:nth-child(2){
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg)
+}
+
+#hamburger.clicked span:nth-child(3){
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg)
+}
+
+#hamburger.clicked span:nth-child(4){
+    top:12px;
+    width:0%;
+    left:50%
+    }
+
+.nav-menu li a{font-family: "Apercu", sans-serif;font-weight:normal;text-transform:uppercase;letter-spacing:.15em}
+
+
+
+/*-----------------------------*/
+
+
+/*
+Home Page CSS
+*/
+
+#home{
+    background-image: url("../images/fruit-header-1.jpg");
+    background-color: #F5F5F5;
+    background-size: cover;
+    color: #292929;
+    margin-top: 7.5vh;
+    padding-bottom: 0;
+    padding-top: 10%; 
+}
+
+#home h1 {
+    font-size: 55pt;
+}
+
+#logos {
+    margin-top: 15%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.text-brand {
+    color: #832A33;
+}
+
+.logo {
+    width: 80%;
+    margin: 0;
+}
+
+
+/*-----------------------------*/
+#display{
+    background-color: orange;
+}
+#display .fourup img{
+    width:100%;
+}
+
+#display .fourup .card{
+    background-color: #FFFFFF;
+            flex-wrap: wrap;
+        flex: initial; 
+}
+
+#display{
+    min-height: 92.5vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+#display .card-body{
+        padding: 11px;
+}
+
+/*-----------------------------*/
+
+
+/*
+Jobs Page CSS
+*/
+
+#fruity {
+    background-color: #832A33;
+    color: #FFFFFF;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+#fruity .col-sm-6 {
+    padding-left: 0;
+}
+
+#hire {
+    padding-right: 5%;
+}
+
+#teamButton {
+    margin-bottom: 10px;
+    background-color: #832A33;
+    color: #FFFFFF;
+    width: 150px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+}
+
+#teamButton:hover {
+    background-color: #d24209;
+    color: #F5F5F5;
+}
+
+.fruits {
+    height: 400px;
+}
+
+/*-----------------------------*/
